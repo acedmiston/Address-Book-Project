@@ -1,0 +1,26 @@
+#show-contact {
+  display: none;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 15px 15px 15px;
+  opacity: 0.75;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px black;
+  
+}
+
+body {
+  background-image: url("https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg");
+  color: white;
+  font-weight: bold;
+}
+
+h1,
+h4 {
+  color: black;
+  font-weight: bold;
+}
+
+h6{
+  font-weight: bold;
+}
+
