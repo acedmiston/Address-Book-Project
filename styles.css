@@ -4,8 +4,31 @@
   padding: 15px 15px 15px 15px;
   opacity: 0.75;
   border-radius: 15px;
-  box-shadow: 10px 10px 5px black;
-  
+  box-shadow: 10px 10px 15px black;
+}
+
+#new-contact {
+  background-color: rgb(0, 0, 0);
+  padding: 15px 15px 15px 15px;
+  opacity: 0.75;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
+}
+
+#myInput {
+  width: 100%; 
+  font-size: 16px; 
+  padding: 5px 20px 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contacts {
+  background-color: rgb(0, 0, 0);
+  padding: 15px 0px 15px 15px;
+  opacity: 0.75;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
 }
 
 body {
@@ -20,7 +43,64 @@ h4 {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+}
+
 h6{
   font-weight: bold;
 }
 
+#search-person {
+  background-color: rgb(0, 0, 0);
+  padding: 15px 15px 15px 15px;
+  opacity: 0.75;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
+}
+
+header {
+  position: center;
+  color: white;
+}
+
+#page-banner{
+  background: #eee ;
+  padding: 5px 0;
+
+}
+
+#page-banner h1, #page-banner p{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 5px;
+  margin: 5px 5px 5px 30px;
+}
+
+.button-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+button{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+hr {
+  clear: both;
+  border: 1px solid transparent;
+  height: 0px;
+}
