@@ -12,7 +12,6 @@
 body {
   color: white;
   font-weight: bold;
-  background-image: url('https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg');
 }
 
 h1,
@@ -30,9 +29,9 @@ h6 {
   font-weight: bold;
 }
 
-.title{
+/* .title{
   font-size: 4.5vmax;
-}
+} */
 
 header {
   position: center;
@@ -47,8 +46,6 @@ ul li {
   padding-left: 5px;
   margin: 5px 5px 5px 30px;
 }
-
-
 
 #show-contact {
   display: none;
