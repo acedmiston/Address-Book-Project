@@ -5,8 +5,8 @@
   border-radius: 10px;
   box-sizing: border-box;
   padding: 0 0 20px;
-  overflow: hidden;
-  background: url('https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg');
+/*   overflow: hidden; */
+  background-image: url('https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg');
 }
 
 body {
