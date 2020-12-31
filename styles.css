@@ -1,17 +1,8 @@
-#wrapper{
-  width: 100%;
-  max-width: 1300px;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 0 0 20px;
-/*   overflow: hidden; */
-  background-image: url('https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg');
-}
-
 body {
   color: white;
   font-weight: bold;
+  background-color: black;
+  font-size: 1.25vmax;
 }
 
 h1,
@@ -29,13 +20,13 @@ h6 {
   font-weight: bold;
 }
 
-/* .title{
+.title{
   font-size: 4.5vmax;
-} */
+}
 
 header {
   position: center;
-/*   color: white; */
+  color: white;
 }
 
 ul {
@@ -45,6 +36,18 @@ ul {
 ul li {
   padding-left: 5px;
   margin: 5px 5px 5px 30px;
+}
+
+#wrapper{
+  width: 100%;
+  max-width: 1300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  background-image: url('https://www.macforbeginners.com/wp/wp-content/uploads/2015/04/address-book.jpg');
+  background-color: black;
 }
 
 #show-contact {
@@ -123,5 +126,4 @@ ul.suggestions li:hover{
   color:rgb(255, 255, 255);
   cursor:pointer;
   text-decoration: underline;
-
 }
